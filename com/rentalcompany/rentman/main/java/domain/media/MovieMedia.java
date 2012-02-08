@@ -5,7 +5,7 @@ import java.util.List;
 import com.rentalcompany.rentman.main.java.domain.rental.Rentable;
 import com.rentalcompany.rentman.main.java.domain.media.Genre;
 
-public class MovieMedia extends RentableMedia{
+public class MovieMedia extends RentableMedia {
 	private String title;
 	private String year;
 	private MediaType type;

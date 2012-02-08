@@ -1,10 +1,9 @@
 package com.rentalcompany.rentman.main.java.domain.media;
 
 import java.util.List;
-
 import com.rentalcompany.rentman.main.java.domain.rental.Rentable;
 
-public class RentableMedia extends Rentable implements MediaInterface {
+public abstract class RentableMedia extends Rentable implements MediaInterface {
 
 	@Override
 	public String getId() {
